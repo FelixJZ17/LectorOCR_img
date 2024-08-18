@@ -12,7 +12,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 threshold_img = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU) [1]
 
 # Cambiar directorio donde esta instalado tesseract
-pytesseract.pytesseract.tesseract_cmd = r'"C:/Program Files/Tesseract-OCR/tesseract.exe"'
+pytesseract.pytesseract.tesseract_cmd = r'C:/Program Files/Tesseract-OCR/tesseract.exe'
 
 # Pasar la imagen a traves de pytesseract
 text = pytesseract.image_to_string(threshold_img)
