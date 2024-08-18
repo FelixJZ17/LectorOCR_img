@@ -23,7 +23,6 @@ else:
 
         # Aplicar umbral para convertir a imagen binaria
         threshold_img = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU) [1]
-        cv2.startWindowThread()
         
         # Cambiar directorio donde esta instalado tesseract
         pytesseract.pytesseract.tesseract_cmd = r'C:/Program Files/Tesseract-OCR/tesseract.exe'
