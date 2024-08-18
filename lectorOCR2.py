@@ -28,5 +28,3 @@ cv2.waitKey(0)
 
 #Print the extratec text
 print(text)
-
-### el codigo no se ejecuta si está en un NASS, pruebo en archivo local
