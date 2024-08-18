@@ -1,0 +1,1 @@
+# aquí se guardarán las imagenes que ya han sido procesadas. Lo ideal es una vez hagas las comprobaciones, las vayas borrando. 
