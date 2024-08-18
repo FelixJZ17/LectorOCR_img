@@ -1,0 +1,2 @@
+## Copia aquí los archivos de imagenes que quieres procesar en la excel. 
+## Una vez procesados serán movidos al otro fichero. 
