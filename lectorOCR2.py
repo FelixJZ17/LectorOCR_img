@@ -22,3 +22,5 @@ cv2.imshow("threshold", threshold_img)
 
 #Print the extratec text
 print(text)
+
+### el codigo no se ejecuta si está en un NASS, pruebo en archivo local
